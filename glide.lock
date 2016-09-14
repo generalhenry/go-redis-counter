@@ -1,0 +1,15 @@
+hash: 1fbbbaae27950c3e099c76855f49a209d2cfef2ddc80d6ae9f6bd562034a93f0
+updated: 2016-09-13T17:46:24.957911808-07:00
+imports:
+- name: gopkg.in/bsm/ratelimit.v1
+  version: db14e161995a5177acef654cb0dd785e8ee8bc22
+- name: gopkg.in/redis.v4
+  version: 60d35dfc25b19100aeb564a98f74700efb9ab92e
+  subpackages:
+  - internal
+  - internal/consistenthash
+  - internal/errors
+  - internal/hashtag
+  - internal/pool
+  - internal/proto
+testImports: []

@@ -1,0 +1,5 @@
+package: ""
+import:
+- package: gopkg.in/redis.v4
+  version: ~4.1.8
+- package: gopkg.in/bsm/ratelimit.v1
