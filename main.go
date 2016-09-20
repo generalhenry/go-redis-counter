@@ -16,7 +16,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 		io.WriteString(w, "favicon")
 		return
 	}
-	count, err := client.Incr("count").Result()
+	count, err := client.Incr("counter").Result()
 	if err != nil {
 		io.WriteString(w, "Redis is unhappy")
 	} else {
